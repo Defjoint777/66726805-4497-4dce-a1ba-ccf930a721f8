@@ -148,10 +148,13 @@ Recompile and observe the layout.
 ## Questions
 
 1. Why is the `graphicx` package necessary for including images?
-2. What happens if you omit `\centering` inside a `figure`?
-3. How does LaTeX number the figures automatically?
-4. Why is separating figures into their own folder helpful?
-
+   because without graphix library latex dont know \includegraphics method
+3. What happens if you omit `\centering` inside a `figure`?
+   the figure would be placed on the left side.
+5. How does LaTeX number the figures automatically?
+   we just have build-in counter for figures.
+7. Why is separating figures into their own folder helpful?
+   its helps us to stay organized. 
 ---
 
 ## Advice
